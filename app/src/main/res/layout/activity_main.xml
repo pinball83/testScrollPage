@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.testscrollpage.MainActivity">
+
+    <!--<HorizontalScrollView-->
+    <!--android:id="@+id/scroll"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:padding="15dp">-->
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+         <View
+            android:id="@+id/target"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light" />
+
+        <View
+            android:id="@+id/target1"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_bright" />
+    </LinearLayout>
+    <!--</HorizontalScrollView>-->
+
+</android.support.constraint.ConstraintLayout>
